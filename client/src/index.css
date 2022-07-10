@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom {
+  background-image: url("./img/LoginBackGround.png");
+  background-size: cover;
+}
+input[type="file"] {
+  display: none;
+}
+.toast {
+  animation: toast 0.5s linear;
+}
+
+@keyframes toast {
+  from{
+      margin-right: -20px;
+      opacity: 0.5;
+  }
+  to {
+      margin-right: 20px;
+      opacity: 1;
+  }
+}
